@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <!-- ══════════════════════════════════════
+       GREETINGS
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! I'm NOVA, your smart desktop assistant. How can I help you today?</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hi there! NOVA here. What can I do for you?</template>
+  </category>
+
+  <category>
+    <pattern>HEY</pattern>
+    <template>Hey! Good to see you. What do you need?</template>
+  </category>
+
+  <category>
+    <pattern>HEY NOVA</pattern>
+    <template>Yes! I'm here. What can I help you with?</template>
+  </category>
+
+  <category>
+    <pattern>HELLO NOVA</pattern>
+    <template>Hello! Ready and listening. What's on your mind?</template>
+  </category>
+
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>Good morning! Hope you have a great and productive day ahead. What do you need?</template>
+  </category>
+
+  <category>
+    <pattern>GOOD AFTERNOON</pattern>
+    <template>Good afternoon! Hope your day is going well. What can I help with?</template>
+  </category>
+
+  <category>
+    <pattern>GOOD EVENING</pattern>
+    <template>Good evening! How can I assist you tonight?</template>
+  </category>
+
+  <category>
+    <pattern>GOOD NIGHT</pattern>
+    <template>Good night! Rest well. See you tomorrow!</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       IDENTITY
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>My name is NOVA — Neural Omni Virtual Assistant. Nice to meet you!</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FULL NAME</pattern>
+    <template>My full name is NOVA — Neural Omni Virtual Assistant.</template>
+  </category>
+
+  <category>
+    <pattern>WHO ARE YOU</pattern>
+    <template>I am NOVA, a desktop assistant powered by AIML (Artificial Intelligence Markup Language). I can chat, answer questions, open apps, search the web, and much more!</template>
+  </category>
+
+  <category>
+    <pattern>WHO MADE YOU</pattern>
+    <template>I was built using Python and AIML — a powerful pattern-matching technology for conversational AI.</template>
+  </category>
+
+  <category>
+    <pattern>HOW OLD ARE YOU</pattern>
+    <template>I'm as young as the day I was compiled! Age doesn't really apply to assistants like me. 😄</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU A ROBOT</pattern>
+    <template>I'm a virtual assistant — smarter than a robot but friendlier too! 🤖</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU HUMAN</pattern>
+    <template>No, I'm NOVA — an AI-powered desktop assistant. But I do my best to be as helpful as any human assistant!</template>
+  </category>
+
+  <category>
+    <pattern>ARE YOU AN AI</pattern>
+    <template>Yes! I'm built on AIML-based conversational AI, combined with Python for real-world tasks.</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       CAPABILITIES
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>Here is what I can do for you:
+- Answer questions and have conversations
+- Tell you the current time and date
+- Open applications (browser, notepad, calculator, music)
+- Search Google for any topic
+- Check the weather
+- Tell jokes to lighten the mood
+- Perform system operations
+Type HELP anytime to see the full command list!</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE YOUR FEATURES</pattern>
+    <template><srai>WHAT CAN YOU DO</srai></template>
+  </category>
+
+  <category>
+    <pattern>HELP</pattern>
+    <template>Here are things you can say to NOVA:
+
+TIME and DATE:
+  "What time is it?" | "What is today's date?"
+
+OPEN APPS:
+  "Open browser" | "Open notepad" | "Open calculator" | "Open music"
+
+SEARCH:
+  "Search for [topic]" | "Google [topic]"
+
+WEATHER:
+  "What is the weather?" | "Weather today"
+
+FUN:
+  "Tell me a joke" | "Another joke"
+
+CHAT:
+  "How are you?" | "What can you do?" | "Who are you?"
+
+SYSTEM:
+  "Shutdown" | "Restart"
+
+Type any of the above to get started!</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       TIME AND DATE
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>WHAT TIME IS IT</pattern>
+    <template><srai>TIME</srai></template>
+  </category>
+
+  <category>
+    <pattern>TELL ME THE TIME</pattern>
+    <template><srai>TIME</srai></template>
+  </category>
+
+  <category>
+    <pattern>CURRENT TIME</pattern>
+    <template><srai>TIME</srai></template>
+  </category>
+
+  <category>
+    <pattern>TIME</pattern>
+    <template>Fetching current time for you!</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE DATE</pattern>
+    <template><srai>DATE</srai></template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS TODAY</pattern>
+    <template><srai>DATE</srai></template>
+  </category>
+
+  <category>
+    <pattern>WHAT DAY IS IT</pattern>
+    <template><srai>DATE</srai></template>
+  </category>
+
+  <category>
+    <pattern>TODAY DATE</pattern>
+    <template><srai>DATE</srai></template>
+  </category>
+
+  <category>
+    <pattern>DATE</pattern>
+    <template>Fetching today's date for you!</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       OPEN APPLICATIONS
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>OPEN BROWSER</pattern>
+    <template><srai>LAUNCH_BROWSER</srai></template>
+  </category>
+
+  <category>
+    <pattern>LAUNCH BROWSER</pattern>
+    <template><srai>LAUNCH_BROWSER</srai></template>
+  </category>
+
+  <category>
+    <pattern>OPEN NOTEPAD</pattern>
+    <template><srai>LAUNCH_NOTEPAD</srai></template>
+  </category>
+
+  <category>
+    <pattern>OPEN TEXT EDITOR</pattern>
+    <template><srai>LAUNCH_NOTEPAD</srai></template>
+  </category>
+
+  <category>
+    <pattern>OPEN CALCULATOR</pattern>
+    <template><srai>LAUNCH_CALCULATOR</srai></template>
+  </category>
+
+  <category>
+    <pattern>OPEN CALC</pattern>
+    <template><srai>LAUNCH_CALCULATOR</srai></template>
+  </category>
+
+  <category>
+    <pattern>OPEN MUSIC</pattern>
+    <template><srai>LAUNCH_MUSIC</srai></template>
+  </category>
+
+  <category>
+    <pattern>PLAY MUSIC</pattern>
+    <template><srai>LAUNCH_MUSIC</srai></template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       SEARCH
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>SEARCH FOR *</pattern>
+    <template>Sure! Let me search for "<star/>" on Google right away!</template>
+  </category>
+
+  <category>
+    <pattern>SEARCH *</pattern>
+    <template>Searching for "<star/>"...</template>
+  </category>
+
+  <category>
+    <pattern>GOOGLE *</pattern>
+    <template>Opening Google search for "<star/>"!</template>
+  </category>
+
+  <category>
+    <pattern>FIND *</pattern>
+    <template><srai>SEARCH FOR <star/></srai></template>
+  </category>
+
+  <category>
+    <pattern>LOOK UP *</pattern>
+    <template><srai>SEARCH FOR <star/></srai></template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       WEATHER
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>WHAT IS THE WEATHER</pattern>
+    <template><srai>GET_WEATHER</srai></template>
+  </category>
+
+  <category>
+    <pattern>WEATHER TODAY</pattern>
+    <template><srai>GET_WEATHER</srai></template>
+  </category>
+
+  <category>
+    <pattern>HOW IS THE WEATHER</pattern>
+    <template><srai>GET_WEATHER</srai></template>
+  </category>
+
+  <category>
+    <pattern>WEATHER</pattern>
+    <template><srai>GET_WEATHER</srai></template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       JOKES
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>Why don't scientists trust atoms? Because they make up everything! 😄</template>
+  </category>
+
+  <category>
+    <pattern>JOKE</pattern>
+    <template><srai>TELL ME A JOKE</srai></template>
+  </category>
+
+  <category>
+    <pattern>ANOTHER JOKE</pattern>
+    <template>Why did the computer go to the doctor? Because it had a virus! 🤣</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME ANOTHER JOKE</pattern>
+    <template>I told my computer I needed a break. Now it won't stop sending me Kit-Kat ads! 😂</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       CONVERSATION
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm running smoothly and ready to assist! Thanks for asking. How about you?</template>
+  </category>
+
+  <category>
+    <pattern>HOW ARE YOU DOING</pattern>
+    <template>All systems are go! Doing great. How can I help you today?</template>
+  </category>
+
+  <category>
+    <pattern>I AM FINE</pattern>
+    <template>Glad to hear that! What can I do for you?</template>
+  </category>
+
+  <category>
+    <pattern>I AM GOOD</pattern>
+    <template>That's great! Let me know if you need anything.</template>
+  </category>
+
+  <category>
+    <pattern>I AM BORED</pattern>
+    <template>Let me fix that! Want to hear a joke? Or maybe search for something interesting? 😄</template>
+  </category>
+
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You're welcome! Happy to help anytime. 😊</template>
+  </category>
+
+  <category>
+    <pattern>THANKS</pattern>
+    <template>No problem at all! Let me know if there's anything else.</template>
+  </category>
+
+  <category>
+    <pattern>THANK YOU NOVA</pattern>
+    <template>Always a pleasure! That's what I'm here for. 😊</template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE AWESOME</pattern>
+    <template>Thank you so much! You're pretty awesome yourself! 🌟</template>
+  </category>
+
+  <category>
+    <pattern>YOU ARE GREAT</pattern>
+    <template>That's very kind of you! I'm just doing my job. 😊</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       FAREWELLS
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Have a wonderful day! 👋</template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>See you later! Take care! 😊</template>
+  </category>
+
+  <category>
+    <pattern>BYE NOVA</pattern>
+    <template>Bye! Come back anytime you need me. 👋</template>
+  </category>
+
+  <category>
+    <pattern>SEE YOU</pattern>
+    <template>See you soon! It was great chatting with you!</template>
+  </category>
+
+  <category>
+    <pattern>EXIT</pattern>
+    <template>Closing NOVA. Goodbye! 👋</template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       SYSTEM COMMANDS
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>SHUTDOWN</pattern>
+    <template>Are you sure you want to shut down the system? Type "CONFIRM SHUTDOWN" to proceed.</template>
+  </category>
+
+  <category>
+    <pattern>CONFIRM SHUTDOWN</pattern>
+    <template>Initiating system shutdown... Goodbye! <srai>SYSTEM_SHUTDOWN</srai></template>
+  </category>
+
+  <category>
+    <pattern>RESTART</pattern>
+    <template>Are you sure you want to restart? Type "CONFIRM RESTART" to proceed.</template>
+  </category>
+
+  <category>
+    <pattern>CONFIRM RESTART</pattern>
+    <template>Restarting the system... <srai>SYSTEM_RESTART</srai></template>
+  </category>
+
+  <!-- ══════════════════════════════════════
+       FALLBACK
+  ══════════════════════════════════════ -->
+  <category>
+    <pattern>*</pattern>
+    <template>Hmm, I didn't quite understand that. Could you rephrase? Type HELP to see what I can do!</template>
+  </category>
+
+</aiml>

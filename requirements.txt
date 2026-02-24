@@ -1,0 +1,2 @@
+aiml==1.0.6
+python-aiml==0.8.6

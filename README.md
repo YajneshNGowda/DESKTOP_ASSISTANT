@@ -1,12 +1,5 @@
-# ✦ NOVA — Neural Omni Virtual Assistant
+#  NOVA — Neural Omni Virtual Assistant
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AIML-2.0-8A2BE2?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GUI-Tkinter-4CAF50?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
-</p>
 
 ---
 
